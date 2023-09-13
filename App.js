@@ -36,8 +36,9 @@ export default function App() {
           selectedValue={sexo}
           onValueChange={(itemValue, itemIndex) => setSexo(itemValue)}
         >
-          <Picker.Item label="homem" value="homem" />
-          <Picker.Item label="mocréia" value="mocréia" />
+          
+          <Picker.Item label="Homem" value="Homem" />
+          <Picker.Item label="Mulher" value="Mulher" />
           
         </Picker>
     </View>
@@ -56,4 +57,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+
 });
