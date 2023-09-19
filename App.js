@@ -38,7 +38,7 @@ export default function App() {
         <Text style={styles.title}>Peso ideal</Text>
 
       <Text style={styles.textoBotao}>Altura:</Text>
-      <TextInput style={styles.viewInput} placeholder='Digite sua altura' onChangeText={setAltura} keyboardType='numeric'/>
+      <TextInput style={styles.viewInput} placeholder='  Digite sua altura' onChangeText={setAltura} keyboardType='numeric'/>
 
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'}  />
 
